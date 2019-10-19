@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:gravity="center">
+    <TextView
+        android:layout_marginBottom="12dp"
+        android:layout_above="@id/fotodiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        />
+<ImageView
+    android:id="@+id/fotodiri"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/diri"
+    />
+    <TextView
+        android:textColor="#000"
+        android:layout_below="@id/fotodiri"
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama : Indira Faradiba Afina"
+        />
+    <TextView
+        android:textColor="#000"
+        android:layout_below="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : indiraafina3@gmail.com"
+        />
+</RelativeLayout>
